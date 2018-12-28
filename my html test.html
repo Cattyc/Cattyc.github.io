@@ -1,0 +1,158 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>我的HTML5学习测试</title>
+	<style>a{text-decoration:none}</style>
+	<style>img{opacity:0.4}
+		img:hover{opacity: 1.0}
+		div.transbox{opacity: 0.2}
+		button{width: 100px;height: 100px;}
+		
+		html{cursor:url("pic/bitbug_favicon (3).ico"),auto;}</style>
+		
+<link rel="bookmark"  type="image/x-icon"  href="bitbug_favicon.ico"/>
+<link rel="shortcut icon" href="bitbug_favicon.ico">	
+ 
+  <title>全屏切换</title>
+      <script type="text/javascript">
+      //进入全屏
+      function enterFullScreen() {
+          var de = document.documentElement;
+        if (de.requestFullscreen) {
+             de.requestFullscreen();
+        } else if (de.mozRequestFullScreen) {
+             de.mozRequestFullScreen();
+         } else if (de.webkitRequestFullScreen) {
+            de.webkitRequestFullScreen();
+         }
+     }
+     //退出全屏
+     function exitFullScreen() {
+         var de = document;
+         if (de.exitFullscreen) {
+             de.exitFullscreen();
+         } else if (de.mozCancelFullScreen) {
+             de.mozCancelFullScreen();
+         } else if (de.webkitCancelFullScreen) {
+            de.webkitCancelFullScreen();
+         }
+     }
+     </script>
+ 
+</head>
+
+<body>
+
+<h1 style="font-family: HYMiaoHunTiW;color:darkturquoise;font-size: 40px;"><div align="center">我的个人学习记录</div></h1>
+<hr>
+<a id="part1">Part 1:</a>
+<p1>我的HTML5的学习过程将会记录在这个网页里面</p1>
+<br>
+<p1>
+<div style=" margin-top:10px;">这一部分是网页链接与添加图片的练习下面是展示:</div>
+<br>
+<img src="pic/6adc108fjw1ertj7dk2fxg20b40b4x6p.gif">
+<a href="file:///G:/%E6%9D%82%E4%B8%83%E6%9D%82%E5%85%AB/%E7%BD%91%E7%BB%9C%E5%9B%BE%E7%89%87/6adc108fjw1ertj7dk2fxg20b40b4x6p.gif" target="_blank"><br>动态图片</a><br>
+<a href="http://www.bilibili.com/video/av8815023/index_2.html" target="_blank"><div style=" margin-top:10px;">哔哩哔哩视频网站</div></a>
+</p1>
+<hr>
+
+<a id="part2">Part 2:</a>
+<p2><div style=" margin-top:10px;">HTML5中添加超链接的标记语言为：&lt;a href="url"&gt;</div>
+<br>
+如果要使超链接在新窗口打开，在&lt;a href="url"&gt;引号后添加target="_blank"，即是&lt;a href="url" target="_blank"&gt;。
+<br></p2>
+<hr>
+<a id="part3">Part 3:</a>
+<p3>这是图片显示:<br><div align="center"><img  border="20" src="pic/搞基.jpg" alt="这就是爱" width="300" height="348"></div></p3>
+ <hr>
+      <h2>
+      <div align ="center">《春晓》</div>
+    </h2>
+    <h3>
+      <div align ="center">孟浩然（唐）</div>
+    </h3>
+    <p4>
+      <div align ="center">
+		
+      春眠不觉晓<sup>&lt;2&gt;</sup>，<br>
+        处处闻啼鸟，<br>
+        夜来风雨声，<br>
+        花落知多少。<br>
+        
+        <br>
+        <img src="pic/9a0de62086.jpg"   height="100" alt="念了一句诗">
+   
+      </div>
+    </p4>
+ 
+
+<hr>
+<p5><div align="center">ID属性的使用方法展示：</div></p5>
+<a href="#part1"><div align="center">点击我返回Part 1</div></a>
+<a href="#part2"><div align="center">点击我返回Part 2</div></a>
+<a href="#part3"><div align="center">点击我返回Part 3</div></a>
+<hr>
+
+<p6><div align= "center" >图片链接测试:</div></p6><br>
+<p6><div align="center">点击下面图片跳转到b站:</div></p6><br>
+<a href="http://www.bilibili.com/" target="_blank" ><div align="center"><img border="5" bordercolor="#000000"  src="pic/QQ图片20150526213043.gif" alt="这是B站"></div></a>
+<hr>
+
+<p7><div align="center">这是target属性四个值得不同表现示例：</div></p7><br>
+<a href="http://bilibili.com/" target="_parent"
+ style="font-family: HYMiaoHunTiW;color: deepskyblue"><div align="center">_parent的表现</div></a>
+<br>
+<a href="http://bilibili.com/" target="_blank"
+style="font-family: HYMiaoHunTiW;color: deepskyblue"><div align="center">_blank的表现：新窗口中显示超链接页面</div></a>
+<br>
+<a href="http://bilibili.com/" target="_self" style="font-family: HYMiaoHunTiW;color: deepskyblue"><div align="center">_self的表现:在本页面显示超链接页面</div></a>
+<br>
+<a href="http://bilibili.com/" target="_top" style="font-family:HYMiaoHunTiW;color: deepskyblue"
+><div align="center">_top的表现</div></a>
+<br>
+
+<div class="transbox"></div>
+
+<hr>
+<a href="file:///C:/Users/tang/Desktop/my%20html%20test/my%20html%20test%202.html" style="font-family: HYMiaoHunTiW;color: darkcyan;font-size: 20px;text-align: center" target="_blank" ><div style="background-color:aquamarine; margin-left:2cm; width: 200px;height: 35px" ><span style="cursor:url(pic/恐龙.png)">我的新网页</span></div></a>
+
+<hr>
+
+<span style="cursor：move">表情包</span>
+
+<div>
+        <a href="javascript:;" onclick="enterFullScreen()"><img src="pic/32F09A1691B3CFCDDBDF5388FA4250C2.jpg" alt="点击我进入全屏"></a>
+        <a href="javascript:;" onclick="exitFullScreen()">退出全屏</a>
+</div>
+
+<hr>
+
+<p8>音乐播放器测试</p8><br>
+
+<audio controls>
+	<source src="【血缘·老猎人DLC】OST/星辰钟楼的玛利亚女士OST.mp3" type="audio/mp3">
+	<source src="【血缘·老猎人DLC】OST/失败者OST.mp3" type="audio/mp3">
+</audio>
+
+<hr>
+<a href="B站跳转.html">点击跳转B站</a><br><hr>
+
+<p>图像<img src="pic/5peQbYkyQi_b.jpg" height="150" align="bottom">在文本中</p>
+
+<p>图像<img src="pic/5peQbYkyQi_b.jpg" height="150" align="middle">在文本中</p>
+
+<p>图像<img src="pic/5peQbYkyQi_b.jpg" height="150" align="top">在文本中</p>
+
+<img src="pic/32F09A1691B3CFCDDBDF5388FA4250C2.jpg" width="114" height="125" alt="兔杂"/><br>
+
+<a href="【血缘·老猎人DLC】OST/失败者OST.mp3">点击下载【血缘·老猎人DLC】OST/失败者.MP3</a><br>
+
+<img src="pic/QQ图片20150711073238.png" alt="" width="1035" height="82" usemap="#Map"/>
+<map name="Map">
+  <area shape="rect" coords="3,4,1031,24" href="【血缘·老猎人DLC】OST/星辰钟楼的玛利亚女士OST.mp3">
+  <area shape="rect" coords="4,24,1031,42" href="【血缘·老猎人DLC】OST/劳伦斯·第一任主教OST.mp3">
+</map>
+</body>
+</html>
