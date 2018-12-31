@@ -1,0 +1,88 @@
+header{
+	height: 170px;
+}
+
+.logo1{
+	margin-top: -15px;
+}
+
+nav{
+	float: right;
+	padding-right:5px;
+	margin-top:50px;
+}
+
+body{
+	max-width: 1024px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+nav ul li{
+	list-style-type: none;
+	padding-left: 5px;
+	text-align: right;
+	display: inline-block;
+}
+
+nav ul li a{
+	text-decoration:none;
+	color:#032B00;
+	font-family:"方正大标宋简体";
+	font-size: 20px;  
+}
+/*标题字背景*/
+.box-1 {
+	background:url(pic/m4-m4-aaa.jpg);
+	background-size: cover;
+	height: 400px;
+	margin: 1%;
+}
+
+/*标题字体*/
+h1 {
+	color:#FFFFFF;
+	font-family:'方正大标宋简体';
+	font-size: 70px;
+	padding-top: 160px;
+	padding-left: 70px;
+}
+
+.box-2 img{
+	width: 100%;/*图片100%在盒子里展示，所以会造成拉伸或者压缩*/
+	height: 210px;
+	display: block;
+}
+
+.box-2{
+	width: 31.3%;/*占屏幕宽度百分比*/
+	float: left;/*左对齐*/
+	margin: 1%;/*盒子之间的间隔加上盒子占屏幕宽度的百分比等于100%*/
+}
+
+/*Table*/
+@media (max-width:768px){
+	h1{
+		font-size: 50px;
+		text-align: center;
+	
+	}
+	.box-2{
+		width: 48%;
+	}
+	nav ul li{
+		display: block;
+	}
+}
+
+/*Mobile*/
+@media (max-width:500px){
+	h1{
+		font-size: 30px;
+		text-align: center;
+	}
+	.box-2{
+		width: 98%;
+	}
+
+}
