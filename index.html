@@ -2,13 +2,17 @@
 <html>
 <head>
 <meta charset="utf-8">
+
+<!--css在html5中的链接使用方式，只能放在<head></head>之间-->
+<link rel="stylesheet" type="text/css" href="1.css"/>
+
+<!-- 标题 --> 
 <title>我的HTML5学习测试</title>
 	<style>a{text-decoration:none}</style>
 	<style>img{opacity:0.4}
 		img:hover{opacity: 1.0}
 		div.transbox{opacity: 0.2}
 		button{width: 100px;height: 100px;}
-		
 		html{cursor:url("pic/bitbug_favicon (3).ico"),auto;}</style>
 		
 <link rel="bookmark"  type="image/x-icon"  href="bitbug_favicon.ico"/>
@@ -44,18 +48,46 @@
 
 <body>
 
-<h1 style="font-family: HYMiaoHunTiW;color:darkturquoise;font-size: 40px;"><div align="center">我的个人学习记录</div></h1>
-<hr>
-<a id="part1">Part 1:</a>
-<p1>我的HTML5的学习过程将会记录在这个网页里面</p1>
-<br>
-<p1>
+<header>
+	<img class="logo1" src="pic/未标题-2.png" alt="克苏鲁利亚logo" width="225px">
+	<nav>
+		<ul>
+			<li><a href="a">平面设计</a></li>
+			<li><a href="a">艺术</a></li>
+			<li><a href="a">计算机编程</a></li>
+			<li><a href="a">游戏</a></li>
+		</ul>
+	</nav>
+</header>
+
+ <!--第一个盒子-->
+<main>
+    <div class="box-1">
+	  <h1>我的个人学习记录</h1>
+    </div>
+<!--第二个盒子，里面有照片和文字-->
+    <div class="box-2">
+      <img src="pic/6adc108fjw1ertj7dk2fxg20b40b4x6p.gif" alt="" >
+      <p1>Part 1:我的HTML5的学习过程将会记录在这个网页里面</p1>
+    </div>
+    
+    <div class="box-2">
+    <img src="pic/搞基.jpg" alt="" >
+    </div>
+    
+    <div class="box-2">
+    <img src="pic/9a0de62086.jpg" alt="" >
+    </div>
+    
+</main>
+
+
+
 <div style=" margin-top:10px;">这一部分是网页链接与添加图片的练习下面是展示:</div>
 <br>
 <img src="pic/6adc108fjw1ertj7dk2fxg20b40b4x6p.gif">
 <a href="file:///G:/%E6%9D%82%E4%B8%83%E6%9D%82%E5%85%AB/%E7%BD%91%E7%BB%9C%E5%9B%BE%E7%89%87/6adc108fjw1ertj7dk2fxg20b40b4x6p.gif" target="_blank"><br>动态图片</a><br>
 <a href="http://www.bilibili.com/video/av8815023/index_2.html" target="_blank"><div style=" margin-top:10px;">哔哩哔哩视频网站</div></a>
-</p1>
 <hr>
 
 <a id="part2">Part 2:</a>
@@ -154,5 +186,6 @@ style="font-family: HYMiaoHunTiW;color: deepskyblue"><div align="center">_blank�
   <area shape="rect" coords="3,4,1031,24" href="【血缘·老猎人DLC】OST/星辰钟楼的玛利亚女士OST.mp3">
   <area shape="rect" coords="4,24,1031,42" href="【血缘·老猎人DLC】OST/劳伦斯·第一任主教OST.mp3">
 </map>
+transform:scale(0.5,0.5);
 </body>
 </html>
