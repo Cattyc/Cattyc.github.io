@@ -1,0 +1,84 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+
+<!--css在html5中的链接使用方式，只能放在<head></head>之间-->
+<link rel="stylesheet" type="text/css" href="1.css"/>
+
+<!-- 标题 --> 
+<title>Cthulhu's whisper</title>
+	<style>a{text-decoration:none}</style>
+	<style>img{opacity:0.4}
+		img:hover{opacity: 1.0}
+		div.transbox{opacity: 0.2}
+		button{width: 100px;height: 100px;}
+		html{cursor:url("pic/bitbug_favicon (3).ico"),auto;}</style>
+		
+<link rel="bookmark"  type="image/x-icon"  href="bitbug_favicon.ico"/>
+<link rel="shortcut icon" href="bitbug_favicon.ico">	
+ 
+  <title>全屏切换</title>
+      <script type="text/javascript">
+      //进入全屏
+      function enterFullScreen() {
+          var de = document.documentElement;
+        if (de.requestFullscreen) {
+             de.requestFullscreen();
+        } else if (de.mozRequestFullScreen) {
+             de.mozRequestFullScreen();
+         } else if (de.webkitRequestFullScreen) {
+            de.webkitRequestFullScreen();
+         }
+     }
+     //退出全屏
+     function exitFullScreen() {
+         var de = document;
+         if (de.exitFullscreen) {
+             de.exitFullscreen();
+         } else if (de.mozCancelFullScreen) {
+             de.mozCancelFullScreen();
+         } else if (de.webkitCancelFullScreen) {
+            de.webkitCancelFullScreen();
+         }
+     }
+     </script>
+ 
+</head>
+
+<body>
+
+<header>
+  <img src="pic/未标题-2.png" alt="克苏鲁利亚logo" width="183" height="181" class="logo1">
+  <nav>
+	  <ul>
+			<li><a href="a">News</a></li>
+			<li><a href="Photograghy.html">Photograghy</a></li>
+			<li><a href="a">Code</a></li>
+			<li><a href="a">Game</a></li>
+		</ul>
+	</nav>
+</header>
+
+ <!--第一个盒子-->
+<main>
+    <div class="box-1">
+	  <h1>As a tool to Curiosity</h1>
+    </div>
+<!--第二个盒子，里面有照片和文字-->
+    <div class="box-2">
+      <img src="pic/6adc108fjw1ertj7dk2fxg20b40b4x6p.gif" alt="" >
+      <p1>Part 1:我的HTML5的学习过程将会记录在这个网页里面</p1>
+    </div>
+    
+    <div class="box-2">
+    <img src="pic/搞基.jpg" alt="" >
+    </div>
+    
+    <div class="box-2">
+    <img src="pic/9a0de62086.jpg" alt="" >
+    </div>
+    
+</main>
+</body>
+</html>

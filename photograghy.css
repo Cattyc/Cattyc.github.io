@@ -1,0 +1,107 @@
+html{
+	font-family: "方正大标宋简体";
+	font-size: 35px;
+	color: #032B00;
+}
+
+.logo1{
+	margin-top: -15px;
+	margin-left: 300px;
+	float: left;
+}
+
+header{
+	float: center;
+}
+
+body{
+	max-width: 1024px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.box-1 il{
+	width: 31.3%;/*占屏幕宽度百分比*/
+	float: left;/*左对齐*/
+	margin: 1%;/*盒子之间的间隔加上盒子占屏幕宽度的百分比等于100%*/
+	/*width: 100px;
+    height: 100px;
+    overflow: hidden;
+	展示缩略图*/
+	display: block;
+}
+
+.box-2 il{
+	width: 31.3%;
+	float: left;
+	margin: 1%;
+	display: block;	
+}
+
+.box-3 il{
+	width: 31.3%;
+	float: left;
+	margin: 1%;
+	display: block;	
+}
+
+.box-1 img{
+	filter: grayscale(100%);
+	transition: 1s;
+	box-shadow:1px 2px 12px gray;
+}
+
+.box-1 img:hover{
+	filter: grayscale(0%);
+	transform: scale(1.07,1.07);
+}
+
+.box-2 img{
+	filter: grayscale(100%);
+	transition: 1s;
+	box-shadow:1px 2px 12px gray;
+}
+
+.box-2 img:hover{
+	filter: grayscale(0%);
+	transform: scale(1.07,1.07);
+}
+
+.box-3 img{
+	filter: grayscale(100%);
+	transition: 1s;
+	box-shadow:1px 2px 12px gray;
+}
+
+.box-3 img:hover{
+	filter: grayscale(0%);
+	transform: scale(1.07,1.07);
+}
+
+@media(max-width:768px){
+	.box-1{
+		width: 48%;
+	}
+	.box-2{
+		width: 48%;
+	}
+	.box-3{
+		width: 48%;
+	}
+} 
+
+@media(max-width:500px){
+	.box-1{
+		width: 98%;
+	}
+	.box-2{
+		width: 98%;
+	}
+	.box-3{
+		width: 98%;
+	}
+} 
+footer{
+	font-size: 15px;
+	text-align: center;
+}
