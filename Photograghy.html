@@ -1,4 +1,5 @@
 
+
 <!doctype html>
 <html>
 <head>
@@ -7,7 +8,10 @@
 <!--css在html5中的链接使用方式，只能放在<head></head>之间-->
 <link rel="stylesheet" type="text/css" href="photograghy.css"/>
 <link rel="stylesheet" type="text/css" href="lightbox.min.css"/>
+<link rel="icon" href="pic/favicon.ico" type="image/x-icon" />
+<link rel="shortcut icon" href="pic/favicon.ico" type="image/x-icon" />
 <script type="text/javascript" src="js/lightbox-plus-jquery.min.js"></script>
+<style>html{cursor:url("pic/bitbug_favicon (3).ico"),auto;}</style><!--鼠标显示-->
 </head>
 
 
@@ -19,38 +23,38 @@
 	<main>
 		<div class="box-1"><!--第一个盒子-->
 		<ul>
-			<il><a href="pic/11.jpg" data-lightbox="myimg" data-title="Girl and Cat SONY ILCE-6300 F/4  1/80 ISO-250"><img src="pic/11.jpg" height="200"></a></il>
-			<il><a href="pic/12.jpg" data-lightbox="myimg"  data-title="Rapeseed Flowers SONY ILCE-6300 F/4  1/160 ISO-125"><img src="pic/12.jpg" height="200"></a></il>
-			<il><a href="pic/13.jpg" data-lightbox="myimg"  data-title="Begonia SONY ILCE-6300 F/4  1/160 ISO-125"><img src="pic/13.jpg" height="200"></a></il>
+			<il><a href="image/11.jpg" data-lightbox="myimg" data-title="Girl and Cat SONY ILCE-6300 F/4  1/80 ISO-250"><img src="image/11.jpg" height="200"></a></il>
+			<il><a href='image/12.jpg' data-lightbox="myimg"  data-title="Rapeseed Flowers SONY ILCE-6300 F/4  1/160 ISO-125"><img src='image/12.jpg' height="200"></a></il>
+			<il><a href='image/13.jpg' data-lightbox="myimg"  data-title="Begonia SONY ILCE-6300 F/4  1/160 ISO-125"><img src='image/13.jpg' height="200"></a></il>
 		</ul>
 		</div>
 		<div class="box-2">
 		<ul>
-			<il><a href="pic/14.jpg" data-lightbox="myimg"  data-title="Far Mountain SONY ILCE-6300 F/4  1/400 ISO-200"><img src="pic/14.jpg" height="200"></a></il>
-			<il><a href="pic/15.jpg" data-lightbox="myimg"  data-title="Small Yellow Flower ILCE-6300 F/4  1/160 ISO-125"><img src="pic/15.jpg" height="200"></a></il>
-			<il><a href="pic/16.jpg" data-lightbox="myimg"  data-title="SKY SONY ILCE-6300 F/5  1/400 ISO-100"><img src="pic/16.jpg" height="200"></a></il>
+			<il><a href="image/14.jpg" data-lightbox="myimg"  data-title="Far Mountain SONY ILCE-6300 F/4  1/400 ISO-200"><img src="image/14.jpg" height="200"></a></il>
+			<il><a href="image/15.jpg" data-lightbox="myimg"  data-title="Small Yellow Flower ILCE-6300 F/4  1/160 ISO-125"><img src="image/15.jpg" height="200"></a></il>
+			<il><a href="image/16.jpg" data-lightbox="myimg"  data-title="SKY SONY ILCE-6300 F/5  1/400 ISO-100"><img src="image/16.jpg" height="200"></a></il>
 		</ul>		
 		</div>
 		<div class="box-3">
 		<ul>
-			<il><a href="pic/17.jpg" data-lightbox="myimg"  data-title="Bicycle SONY ILCE-6300 F/4  1/125 ISO-320"><img src="pic/17.jpg" height="200"></a></il>
-			<il><a href="pic/18.jpg" data-lightbox="myimg"  data-title="Small Red Flower ILCE-6300 F/5.6  1/125 ISO-100"><img src="pic/18.jpg" height="200"></a></il>
-			<il><a href="pic/19.jpg" data-lightbox="myimg"  data-title="Under The Tree SONY ILCE-6300 F/5.6  1/125 ISO-100"><img src="pic/19.jpg" height="200"></a></il>
+			<il><a href="image/17.jpg" data-lightbox="myimg"  data-title="Bicycle SONY ILCE-6300 F/4  1/125 ISO-320"><img src="image/17.jpg" height="200"></a></il>
+			<il><a href="image/18.jpg" data-lightbox="myimg"  data-title="Small Red Flower ILCE-6300 F/5.6  1/125 ISO-100"><img src="image/18.jpg" height="200"></a></il>
+			<il><a href="image/19.jpg" data-lightbox="myimg"  data-title="Under The Tree SONY ILCE-6300 F/5.6  1/125 ISO-100"><img src="image/19.jpg" height="200"></a></il>
 		</ul>		
 		</div>
-		 <div class="contact">
+	  <div class="contact">
 			<p>留言薄</p>
 			<ul><img src="pic/avatar_default_256px_1068661_easyicon.net.png" class="c1" width="30">
-			<input name="your name" type="text" class="yourname" value="你的名字" size="30" maxlength="30"><br>
+			<input name="your name" type="text" class="yourname" placeholder="你的名字" size="30" maxlength="30"><br>
 			<textarea name="your words" cols="70" rows="5">你也来说两句吧！</textarea><br>
-			<input type="text" name="your email" size="20" maxlength="30" value="邮箱">
-			<input type="text" name="your web" size="20" maxlength="30" value="你的个人网页或微博"><br>
+			<input type="text" name="your email" size="20" maxlength="30" placeholder="邮箱">
+			<input type="text" name="your web" size="20" maxlength="30" placeholder="你的个人网页或微博"><br>
 			<input type="submit" value="提交">
 			</ul>
 		</div>
 	</main>
 <footer>
-    <div id="datetime" class="datetime"> <script>setInterval("document.getElementById('datetime').innerHTML=new Date().toLocaleString();", 1000);</script></div>
+   <div id="datetime" class="datetime"> <script>setInterval("document.getElementById('datetime').innerHTML=new Date().toLocaleString();", 1000);</script></div>
     <p>Copyright © 2019 Cattyc All rights reserved</p>
 </footer>
 </body>
