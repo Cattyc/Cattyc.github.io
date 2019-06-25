@@ -9,7 +9,7 @@ header{
 nav{
 	float: right;
 	padding-right:5px;
-	margin-top:30px;
+	margin-top:35px;
 	word-spacing: 20px;
 }
 
@@ -25,13 +25,23 @@ nav ul li{
 	text-align: right;
 	display:inline-block;
 }
+nav ul1{
+	float: right;
+	display: inline-block;
+	
+}
+
+nav ul1 button{
+	font-family: Consolas, Andale Mono, Lucida Console, Lucida Sans Typewriter, Monaco, Courier New, monospace;
+}
 
 nav ul li a{
 	text-decoration:none;
 	color:#032B00;
-	font-family:"方正大标宋简体";
+	font-family:Consolas, Andale Mono, Lucida Console, Lucida Sans Typewriter, Monaco, Courier New, monospace;
 	font-size: 25px;
 }
+
 /*标题字背景*/
 .box-1 {
 	background:url(pic/m4-m4-aaa.jpg);
@@ -51,16 +61,194 @@ h1 {
 	word-wrap: break-word;
 }
 
-.box-2 img{
-	width: 100%;/*图片100%在盒子里展示，所以会造成拉伸或者压缩*/
-	height: 210px;
-	display: block;
+
+.News {
+	background:url(pic/m4-m4-214th.jpg);
+	width: 400px;
+	height: 200px;
+	background-size: cover;
+    margin: 1%;
+	color:#FFFFFF;
+	transition: 1s;
+	filter: grayscale(100%);
+	margin-top: 10px;
+	float: left;
 }
 
-.box-2{
-	width: 31.3%;/*占屏幕宽度百分比*/
-	float: left;/*左对齐*/
-	margin: 1%;/*盒子之间的间隔加上盒子占屏幕宽度的百分比等于100%*/
+
+.News:hover{
+	filter: grayscale(10%);
+	transform: scale(1.04,1.04);
+}
+
+.News h{
+	margin-left: 20px;
+	margin-top: 50px;
+	font-family: Consolas, Andale Mono, Lucida Console, Lucida Sans Typewriter, Monaco, Courier New, monospace;
+	font-size: 50px;
+	display:inline-block;
+	text-shadow: 2px 2px 2px black;
+}
+
+.News p{
+	margin-left: 21px;
+	margin-top: 35px;
+	font-size: 20px;
+	font-family:"微软雅黑";
+	text-shadow: 5px 5px 5px black;
+}
+
+.Photograghy {
+	background:url(image/14.jpg) 0px -100px;
+	background-size: cover;
+	float: left;
+	width: 583px;
+	height: 200px;
+	margin: 1%;
+	margin-top: 10px;
+	color: #fff;
+	transition: 1s;
+	filter:grayscale(100%);
+}
+
+.Photograghy:hover{
+	filter: grayscale(10%);
+	transform: scale(1.04,1.04);
+}
+
+.Photograghy h{
+	margin-left: 20px;
+	margin-top: 50px;
+	font-family: Consolas, Andale Mono, Lucida Console, Lucida Sans Typewriter, Monaco, Courier New, monospace;
+	font-size: 50px;
+	display:inline-block;
+	text-shadow: 2px 2px 2px black;
+}
+
+.Photograghy p{
+	margin-left: 21px;
+	margin-top: 35px;
+	font-size: 20px;
+	font-family:"微软雅黑";
+	text-shadow: 5px 5px 5px black;
+}
+
+.Code {
+	background:url(pic/wisnu-tan-deadpool.jpg) 0px -50px;
+	background-size: cover;
+	float: left;
+	width: 583px;
+	height: 200px;
+	margin: 1%;
+	margin-top: 10px;
+	color: #fff;
+	transition: 1s;
+	filter:grayscale(100%);
+}
+
+.Code:hover{
+	filter: grayscale(10%);
+	transform: scale(1.04,1.04);
+}
+
+.Code h{
+	margin-left: 20px;
+	margin-top: 50px;
+	font-family: Consolas, Andale Mono, Lucida Console, Lucida Sans Typewriter, Monaco, Courier New, monospace;
+	font-size: 50px;
+	display:inline-block;
+	text-shadow: 2px 2px 2px black;
+}
+
+.Code p{
+	margin-left: 21px;
+	margin-top: 35px;
+	font-size: 20px;
+	font-family:"微软雅黑";
+	text-shadow: 5px 5px 5px black;
+}
+
+.Game {
+	background:url(pic/1-002.jpg);
+	width: 400px;
+	height: 200px;
+	background-size: cover;
+    margin: 1%;
+	color:#FFFFFF;
+	transition: 1s;
+	filter: grayscale(100%);
+	margin-top: 10px;
+	float: left;
+}
+
+
+.Game:hover{
+	filter: grayscale(10%);
+	transform: scale(1.04,1.04);
+}
+
+.Game h{
+	margin-left: 20px;
+	margin-top: 50px;
+	font-family: Consolas, Andale Mono, Lucida Console, Lucida Sans Typewriter, Monaco, Courier New, monospace;
+	font-size: 50px;
+	display:inline-block;
+	text-shadow: 2px 2px 2px black;
+	filter: 
+}
+
+.Game p{
+	margin-left: 21px;
+	margin-top: 35px;
+	font-size: 20px;
+	font-family:"微软雅黑";
+	text-shadow: 5px 5px 5px black;
+}
+
+#focusimg{
+	margin: 1%;
+	animation:myfirst 5s;
+	animation-iteration-count: infinite;
+	overflow: hidden;  
+	position:relative;
+	width: 1003.62px;
+	height: 180px;
+	transition: 1s;
+	opacity:0.4;
+	filter:alpha(opacity=40);
+}
+
+#focusimg:hover{
+	margin: 1%;
+	animation:myfirst 5s;
+	animation-iteration-count: infinite;
+	overflow: hidden;  
+	position:relative;
+	width: 1003.62px;
+	height: 180px;
+	opacity:1.0;
+	filter:alpha(opacity=100);
+}
+
+#focusimg h{
+	font-family: Consolas, Andale Mono, Lucida Console, Lucida Sans Typewriter, Monaco, Courier New, monospace;
+	color: #FFFFFF;
+	font-size: 50px;
+    margin-top: 50px;
+	margin-left: 290px;
+	display:inline-block;
+	text-shadow: 2px 2px 2px black;
+}
+
+@keyframes myfirst{
+0% {background:url(pic/QQ图片20150613213721.jpg) no-repeat 0px -350px;
+	background-size: 100% auto;}
+25%{background:url(pic/QQ图片20150613213732.jpg) no-repeat 0px -350px;
+	background-size: 100% auto;}
+50%{background:url(pic/QQ图片20150613213750.jpg) no-repeat 0px -350px;
+	background-size: 100% auto;}
+100%{background:url(pic/QQ图片20150613213743.jpg) no-repeat 0px -350px;
+	background-size: 100% auto;}
 }
 
 /*Table*/
